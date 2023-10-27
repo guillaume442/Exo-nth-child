@@ -1,0 +1,51 @@
+div {
+    width: 75px;
+    height: 75px;
+}
+
+div:nth-child(n) {
+    display: flex;
+}
+
+body :nth-child(1) :nth-child(even) {
+    background-color: rgb(27, 13, 13);
+}
+body :nth-child(3) :nth-child(even) {
+    background-color: rgb(27, 13, 13);
+}
+body :nth-child(5) :nth-child(even) {
+    background-color: rgb(27, 13, 13);
+}
+body :nth-child(7) :nth-child(even) {
+    background-color: rgb(27, 13, 13);
+}
+
+
+body :nth-child(1) :nth-child(1) {
+    background-color: rgb(27, 13, 13);
+}
+body :nth-child(3) :nth-child(even) {
+    background-color: rgb(27, 13, 13);
+}
+body :nth-child(5) :nth-child(even) {
+    background-color: rgb(27, 13, 13);
+}
+body :nth-child(7) :nth-child(even) {
+    background-color: rgb(27, 13, 13);
+
+}
+body :nth-child(2) :nth-child(even) {
+    background-color: rgb(44, 3, 249);
+}
+body :nth-child(4) :nth-child(even) {
+    background-color: rgb(2, 48, 250);
+}
+body :nth-child(6) :nth-child(even) {
+    background-color: rgb(30, 1, 251);
+}
+body :nth-child(8) :nth-child(even) {
+    background-color: rgb(15, 2, 251);
+}
+
+
+
